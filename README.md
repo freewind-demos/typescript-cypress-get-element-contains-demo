@@ -1,7 +1,7 @@
 TypeScript Cypress Get Element with "contains" Demo
 ==================================================
 
-使用了`get`和`contains`之后，最终会定位到`contains`指向的元素。
+在`contains`中可以通过指定第一个参数来确定最终指向的element
 
 ```
 npm install

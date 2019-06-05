@@ -7,6 +7,12 @@ describe('cypress', () => {
       .then(element => {
         console.log(element)
       })
+
+    cy.get('#main')
+      .contains('#main', 'Hello')
+      .then(element => {
+        console.log(element)
+      })
   })
 
 })
