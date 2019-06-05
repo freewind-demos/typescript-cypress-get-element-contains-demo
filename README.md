@@ -1,9 +1,7 @@
-TypeScript Cypress Get Element and Print DOM Demo
+TypeScript Cypress Get Element with "contains" Demo
 ==================================================
 
-使用`cy.get(..).then($ele => {...})`
-
-其中$ele是一个jquery对象
+使用了`get`和`contains`之后，最终会定位到`contains`指向的元素。
 
 ```
 npm install
